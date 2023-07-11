@@ -5,13 +5,44 @@
   
   <!-- css code styling of the website -->
   <style>
+    h1{
+      text-align: center;
+      /*background-color: #e9dada;*/
+      height:20vh;
+      box-shadow: inset  0px -1.5px rgba(0,0,50,25)
+      
+    }
 
+    .header{
+      display: flex;
+      justify-content: center;
+    }
+    .header	ul{
+      list-style: none;
+      margin: 0 auto;
+      padding: 0px;
+      text-align:center;
+      width:50%;
+    }
+
+    .header ul li{
+      background:#f4b678 ;
+      border-radius:.5em;
+      color:#fff;
+      cursor:pointer;
+      font-size:1rem;
+      line-height:3em;
+      transition:.3s ease all;
+      vertical-align:middle;
+      white-space:nowrap;
+      position:relative;
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>Pirara Purified Waters</h1>
-    <nav>
+    <nav class="header">
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">Products</a></li>
